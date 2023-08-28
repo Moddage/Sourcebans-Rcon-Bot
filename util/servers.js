@@ -16,7 +16,6 @@ db.connect(function(error) {
 
   db.query(`SELECT * FROM ${prefix}servers WHERE rcon <> '' AND enabled = '1'`, function(error, response) {
     if (error) console.log(error);
-    console.log(response);
     exports.Servers = response;
   });
 });
