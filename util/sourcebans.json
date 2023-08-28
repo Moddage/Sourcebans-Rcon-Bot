@@ -1,0 +1,37 @@
+{
+    "mysql":{
+        "host":"",
+        "database":"sbpp",
+        "user":"",
+        "password":"",
+        "port":"3306",
+        "prefix":"sb_"
+    },
+
+    "users":{
+        "discordId":"SB++ username",
+        "":"",
+        "":"",
+        "":"",
+        "":"",
+        "":"",
+        "":"", 
+        "":"", 
+        "":""
+  
+    },
+    "command_overrides":{
+        "sm_kick":"c",
+        "sm_ban":"d",
+        "sm_unban":"e",
+        "sm_mute":"c",
+        "sm_gag":"c",
+        "sm_silence":"c",
+        "sm_slay":"f",
+        "rcon_password":"z"
+    },
+
+    "servers":{
+        "ip:port":"nickname"
+    }
+}

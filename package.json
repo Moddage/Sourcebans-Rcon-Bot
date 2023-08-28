@@ -1,0 +1,32 @@
+{
+
+  "name": "RconBot",
+
+  "description": "A Bot For Rcon",
+
+  "version": "0.0.1",
+
+  "main": "bot.js",
+
+  "scripts": {
+
+    "start": "node bot.js"
+
+  },
+
+  "dependencies": {
+
+    "discord.js": "^12.5.3",
+
+    "djs-commands": "^1.2.2",
+
+    "mysql": "2.18.1",
+
+    "rcon": "1.0.3",
+
+    "request": "^2.88.2"
+
+  }
+
+}
+
